@@ -168,11 +168,5 @@ def play_game():
     print('Game Over')
 
 
-
-'''
-for i in range(0, 10):
-    keys = list(cards.keys())
-    random_index = random.randint(0, len(keys))
-    random_key = keys[random_index]
-    print(random_key)
-'''
+if __name__ == "__main__":
+    play_game()
