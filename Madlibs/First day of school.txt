@@ -22,7 +22,7 @@ wearing his favorite {8} shirt. "Nice shirt!" said {0}. They
 headed into the school together.
 
 "What is your first class?" asked {2}. "I have {9} with Mr.
-{1}" replied {0}. "That's too bad" said {2}, "He's grades
+{1}" replied {0}. "That's too bad" said {2}, "He grades
 everyone on their {11} ability." Then the bell rang and
 they went off to class.
 
