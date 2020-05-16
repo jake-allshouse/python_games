@@ -1,4 +1,25 @@
 Cat's name
 size
+pronoun
+verb
+verb
+unit of time
+verb ending in -ing
+adjective
+noun
+verb ending in -ing
+noun
+verb ending in -ed
+emotion
+group of people
+adjective
+noun
 --begin--
-{0} was a very {1} cat.
+{0} was a very {1} cat. {0} was so {1} that {2} could barely {3}!
+Everyday {2} would {4} for at least 10 {5}.
+Once while {0} was {6}, {2} saw a {7},
+{8}. {0} knew what {2} had to do.
+{9} over the {10}, {0} {11} the {7}, {8}.
+Immediately {0} regretted the decision and felt {12}.
+Upon hearing this the {13} awarded {0} with the {14} {15} medal.
+From then on {0} was forever known as the coolest cat.
