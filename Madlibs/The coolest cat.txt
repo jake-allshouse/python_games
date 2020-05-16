@@ -1,0 +1,4 @@
+Cat's name
+size
+--begin--
+{0} was a very {1} cat.

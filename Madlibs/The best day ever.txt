@@ -1,0 +1,3 @@
+noun
+--begin--
+The best day ever begins with a {0}.

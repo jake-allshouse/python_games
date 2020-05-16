@@ -1,0 +1,9 @@
+boy's name
+emotion
+noun
+emotion
+last name
+--begin--
+On the first day of school, {0} was really {1} to 
+start, but he was {3} that he brought his {2} in his 
+backpack. In his first class his teacher was Mr. {4}.
