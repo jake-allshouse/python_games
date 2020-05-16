@@ -1,9 +1,32 @@
 boy's name
-emotion
-noun
-emotion
 last name
+boy's name
+noise
+emotion
+proper noun
+adjective
+color
+noun
+school subject
+country
+verb ending in 'ing'
+city
 --begin--
-On the first day of school, {0} was really {1} to 
-start, but he was {3} that he brought his {2} in his 
-backpack. In his first class his teacher was Mr. {4}.
+{3}, {3}, {3}! The alarm clock was telling {0} it was time 
+to wake up. Today was his first day of school. {0} was feeling
+pretty {4} about it. This was his first day at {5} junior high.
+
+{0} got off the {6}, {7} school bus and was heading toward the
+front door of the school when he saw his friend {2}. {2} was 
+wearing his favorite {8} shirt. "Nice shirt!" said {0}. They 
+headed into the school together.
+
+"What is your first class?" asked {2}. "I have {9} with Mr.
+{1}" replied {0}. "That's too bad" said {2}, "He's grades
+everyone on their {11} ability." Then the bell rang and
+they went off to class.
+
+{0} just sat down in his chair when Mr. {1} called on him.
+"{0} what is the capital of {10}?" he asked. {0} wasn't sure
+so he answered "{12}?". Mr. {1} frowned and called on the
+next student. {0} realized this was going to be a long day.
