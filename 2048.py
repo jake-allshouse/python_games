@@ -81,18 +81,25 @@ def play_game():
 
     previous_board = []
     while True:        
-        # todo: need to check if any moves work if full
+        available = get_available(board)
+
+        if not available and \
+            board == shift_board(board, 'r') and \
+            board == shift_board(board, 'l') and \
+            board == shift_board(board, 'u') and \
+            board == shift_board(board, 'd'):
+            print('No moves. Game over.')
+            break
         
         if board != previous_board:            
-            if not get_available(board):
-                print('Done')
-                break
             add_number(board)
-        print_board(board)        
+        print_board(board)
 
-        direction = input('Direction (U)p, (D)own, (L)eft, (R)ight? ').strip().casefold()
+        direction = input('Direction (U)p, (D)own, (L)eft, (R)ight, or (Q)uit? ').strip().casefold()
 
-        if direction not in ('u', 'd', 'l', 'r'):
+        if direction == 'q':
+            break
+        elif direction not in ('u', 'd', 'l', 'r'):
             print('Invalid direction')
             continue
 
@@ -100,4 +107,5 @@ def play_game():
         board = shift_board(board, direction)
 
 
-    
+if __name__ == "__main__":
+    play_game()
