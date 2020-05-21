@@ -79,7 +79,7 @@ def play_game():
     board = get_new_board()
     add_number(board)
 
-    previous_board = []
+    changed = True
     while True:        
         available = get_available(board)
 
@@ -91,7 +91,7 @@ def play_game():
             print('No moves. Game over.')
             break
         
-        if board != previous_board:            
+        if available and changed:            
             add_number(board)
         print_board(board)
 
@@ -101,10 +101,13 @@ def play_game():
             break
         elif direction not in ('u', 'd', 'l', 'r'):
             print('Invalid direction')
+            changed = False
             continue
 
         previous_board = board
         board = shift_board(board, direction)
+        changed = board != previous_board
+        
 
 
 if __name__ == "__main__":
