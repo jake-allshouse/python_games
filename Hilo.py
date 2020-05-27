@@ -1,9 +1,10 @@
-low = 1
-high = 1000
 
 name = 'High/Low'
 
 def play_game():
+    low = 1
+    high = 1000
+
     print("Please think of a number between {} and {}".format(low, high))
     print("I will guess your number in 10 guesses")
     input("Press ENTER to start")
