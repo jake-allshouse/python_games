@@ -1,5 +1,7 @@
 import random
 
+name = 'Slot Machine'
+
 slots = ["BAR", " 7 ", " $ ", " $$", "$$$", "   ", "   "]
 slots1 = slots
 slots2 = slots
@@ -16,7 +18,7 @@ def slots_sample():
     return line1, line2, line3
 
 
-def slots_game():
+def play_game():
     print("Press ENTER to pull handle:")
     print("Type exit to leave game:")
     exit_game = False
@@ -29,5 +31,5 @@ def slots_game():
         elif choice == "exit":
             break
 
-
-slots_game()
+if __name__ == "__main__":
+    play_game()

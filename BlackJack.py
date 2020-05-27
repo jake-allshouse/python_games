@@ -1,5 +1,7 @@
 import random
 
+name = 'BlackJack'
+
 cards = {
     'Ace of Spades': (1, 11),
     '2 of Spades': (2,),

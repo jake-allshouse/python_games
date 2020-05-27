@@ -1,5 +1,7 @@
 import random
 
+name = '2048'
+
 def get_new_board():
     return [[0]*4, [0]*4, [0]*4, [0]*4]
 
